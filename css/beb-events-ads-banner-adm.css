@@ -1,0 +1,441 @@
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------------- GENERALE ------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+.beb-eab-riass-add {
+    margin: 3% 0;
+	text-align: center;
+}
+
+#beb-eab-priorita {
+	width: 50px;
+}
+
+#beb-eab-contenitore-admin .form-table {
+    margin-left: 5%;
+    width: 90%;
+}
+
+#beb-eab-contenitore-admin .form-table th {
+	padding: 0;
+	vertical-align: middle;
+    width: 7%;
+}
+
+#beb-eab-contenitore-admin .form-table td:first-child {
+    width: 45%;
+}
+
+#beb-eab-contenitore-admin .form-table td {
+	padding: 0;
+}
+
+#beb-eab-contenitore-admin .form-table .beb-eab-add-sugg {
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+#beb-eab-contenitore-admin .form-table td input[type="submit"] {
+	height: 30px;
+    margin-left: 45%;
+    width: 10%;
+}
+
+#beb-eab-contenitore-admin .form-table td input[type="text"] {
+	margin-left: 15px;
+	width: 80%;
+}
+
+#beb-eab-contenitore-admin[class="beb-eab-imp-formattazione"] .form-table td input[type="text"] {
+	width: 50px;
+}
+
+#beb-eab-contenitore-admin .form-table td select {
+	margin-left: 15px;
+	padding-right: 5px;
+	text-align: right;
+}
+
+#beb-eab-contenitore-admin .form-table td select[name="beb_cv_banner_form_3[beb_eab_data_evento_giorno]"] {
+	width: 50px;
+}
+
+#beb-eab-contenitore-admin .form-table td select[name="beb_cv_banner_form_3[beb_eab_data_evento_mese]"], 
+#beb-eab-contenitore-admin .form-table td select[name="beb_cv_banner_form_3[beb_eab_data_evento_anno]"] {
+	width: 100px;
+}
+
+.beb-eab-add-banner-sugg {
+	color: #0000FF;
+	font-size: 12px;
+	padding: 0;
+	text-align: center;
+}
+
+.beb-eab-add-banner-sugg strong {
+    font-size: 13px;
+}
+
+#beb-eab-nome-evento {
+	width: 335px;
+}
+
+#beb-eab-titolo {
+	width: 178px;
+}
+
+#beb-eab-sottotitolo {
+	width: 244px;
+}
+
+#beb-eab-descrizione {
+	margin-left: 15px;
+	height: 45px;
+	width: 100%;
+}
+
+#beb-eab-contenitore-admin {
+	background-color: #d8d8d8;
+	border: 1px solid #000000;
+	float: left;
+	margin: 3% 2% 0;
+	padding: 3%;
+	position: relative;
+	width: 90%;
+	word-break: break-all;
+}
+
+#beb-eab-contenitore-admin span {
+	position: relative;
+}
+
+#beb-eab-contenitore-admin.beb-eab-imp-add > h1,
+#beb-eab-contenitore-admin.beb-eab-imp-add > h4 {
+	width: 50%;
+}
+
+#beb-eab-contenitore-admin.beb-eab-imp-add h4 {
+	margin-bottom: 50px;
+}
+
+#beb-eab-contenitore-admin ol{
+	color: #0000ff;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#beb-eab-contenitore-admin ol li span {
+	cursor: pointer;
+}
+
+.beb-eab-riga {
+	margin: 10px 0;
+	width: 100%;
+}
+
+.beb-eab-riga h1 {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.submit {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.beb-eab-drag-drop {
+	border: 1px solid black;
+	left: 5%;
+	height: 270px;
+	padding: 2%;
+	width: 86%;
+}
+
+.beb-eab-drag-drop h1 {
+	line-height: 26px;
+	margin-top: 55px !important;
+}
+
+.beb-eab-drag-drop h2 {
+	line-height: 20px;
+	margin-top: 15px !important;
+}
+
+.beb-eab-help-up {
+	cursor: pointer;
+	float: right;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------- PAGINA RIASSUNTO ------------------------------------------------ */
+/* ---------------------------------------------------------------------------------------------------------------- */
+#beb-eab-banner-riass-form > div:not(:first-child) {
+	border-top: 1px solid black;
+}
+
+#beb-eab-banner-riass-form > div {
+	padding: 50px 0;
+	width: 100%;
+}
+
+.beb-eab-stato-banner-riassunto h3,
+.beb-eab-stato-banner-riassunto table {
+	display: none;
+}
+
+#beb-eab-banner-riass-form .beb-eab-stato-banner-riassunto {
+	margin-bottom: 30px;
+	width: 90px;
+}
+
+.beb-eab-proprieta-banner {
+	float: left;
+	padding: 15px;
+	width: 46%;
+}
+
+.beb-eab-proprieta-banner h1,
+.beb-eab-proprieta-banner h2,
+.beb-eab-proprieta-banner h3 {
+	color: #000000;
+}
+
+#beb-eab-banner-count-down {
+	float: right !important;
+    font-size: 80px;
+    font-weight: bold;
+    height: 100px;
+    line-height: 96px;
+    margin-right: 30px;
+    margin-top: 64px;
+    width: 100px;
+}
+
+#beb-eab-stato-banner {
+	cursor:pointer;
+	height: 55px;
+	width: 90px;
+}
+
+.beb-eab-stato-banner-riassunto #submit {
+	background-color: unset;
+	border: medium none;
+	box-shadow: none;
+	height: 45px;
+	padding: 0;
+	width: 84px;
+}
+
+#beb-eab-banner-popup-body {
+	background-color: black;
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9998;
+}
+
+#beb-eab-banner-popup-contenitore {
+	background-color: white;
+    border: 1px solid black;
+    height: 23%;
+    left: 34%;
+    padding: 3%;
+    position: fixed;
+    top: 30%;
+    width: 32%;
+    z-index: 9999;
+}
+
+#beb-eab-banner-popup-annulla {
+    margin: 11% 22% 0 28%;
+}
+
+.beb-eab-banner-button-red {
+	color: #faddde;
+	border: solid 1px #980c10;
+	background: #d81b21;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ed1c24), to(#aa1317));
+	background: -moz-linear-gradient(top,  #ed1c24,  #aa1317);
+
+}
+
+.beb-eab-banner-button-red:hover {
+	background: #b61318;
+	background: -webkit-gradient(linear, left top, left bottom, from(#c9151b), to(#a11115));
+	background: -moz-linear-gradient(top,  #c9151b,  #a11115);
+
+}
+
+.beb-eab-banner-button-red:active {
+	color: #de898c;
+	background: -webkit-gradient(linear, left top, left bottom, from(#aa1317), to(#ed1c24));
+	background: -moz-linear-gradient(top,  #aa1317,  #ed1c24);
+
+}
+
+.beb-eab-banner-button {
+    border-radius: 0.5em;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: inline-block;
+    font: italic bold 14px/100% "Helvetica Neue",Verdana,Helvetica,sans-serif;
+    margin: 10px;
+    outline: medium none;
+    padding: 0.5em 2em 0.55em;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.beb-eab-banner-button:hover {
+    text-decoration: none;
+}
+
+.beb-eab-banner-button:active {
+    position: relative;
+    top: 1px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------- PAGINA ADD BANNER ----------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+.beb-eab-add-banner-numeri {
+	font-weight: bold;
+}
+
+#beb-eab-add-banner-pro {
+	left: 15%;
+	margin: 30px 0;
+	position: relative;
+	width: 70%;
+}
+
+#beb-eab-add-banner-pro tbody tr td:first-child {
+	color: #888888;
+	font-size: 14px;
+    font-weight: bold;
+    line-height: 25px;
+    padding-right: 25px;
+	width: 23%;
+}
+
+#beb-eab-add-banner-pro .beb-eab-add-banner-pro-input {
+	margin: 0 10px;
+	background-color: #f0f0f0;
+	border: 1px solid #D0D0D0;
+	text-align: center;
+	width: 44%;
+}
+
+#beb-eab-add-banner-pro tbody tr td:last-child {
+	color: #008b8b;
+	font-size: 12px;
+	padding-left: 15px;
+	width: 33%;
+}
+
+#beb-eab-add-banner-get-pro {
+	margin-left: 10%;
+	width: 80%;
+}
+
+#beb-eab-add-banner-get-pro table {
+	border: 1px solid #000000;
+	margin-left: 15%;
+	padding: 15px;
+	width: 70%;
+}
+
+#beb-eab-add-banner-get-pro table tr:not(:first-child) td {
+	border: 1px solid #000000;
+	font-size: 14px;
+	padding: 5px;
+}
+
+#beb-eab-add-banner-get-pro table td:first-child {
+	width: 70%;
+}
+
+#beb-eab-add-banner-get-pro table td span {
+	font-size: 12px;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------- PAGINA IMPOSTAZIONI --------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+.beb-eab-banner-indice-pro {
+	color: #888888;
+	font-style: italic;
+}
+
+#beb-eab-banner-impostazioni {
+    margin-top: 60px;
+}
+
+#beb-eab-contenitore-admin[class="beb-eab-imp-colori"] .form-table {
+    margin: 0 0 0 3%;
+    width: 68%;
+}
+
+#beb-eab-contenitore-admin[class="beb-eab-imp-colori"] .form-table td,
+#beb-eab-contenitore-admin[class="beb-eab-imp-colori"] .form-table th {
+	padding: 0 0 30px;
+    vertical-align: text-top;
+}
+
+#beb-eab-contenitore-admin[class="beb-eab-imp-colori"] .form-table th {
+	text-align: right;
+	width: 16.6%;
+}
+
+#beb-eab-contenitore-admin[class="beb-eab-imp-colori"] .form-table td {
+	padding: 0 0 30px 15px;
+	width: 16.6%;
+}
+
+#beb-eab-contenitore-admin[class="beb-eab-imp-colori"] .form-table td input[type="text"] {
+	margin: 0 0 10px 0;
+	width: 60px;
+}
+
+#beb-eab-contenitore-admin[class="beb-eab-imp-colori"] .form-table td input[type="radio"] {
+	margin: 0;
+	width: auto;
+}
+
+#beb-eab-contenitore-admin[class="beb-eab-imp-colori"] .form-table td input[type="radio"]:last-child {
+	margin-left: 10px;
+}
+
+.beb-eab-add-banner-colore {
+	border: 1px solid black;
+    height: 30px;
+    padding: 0;
+    width: 56%;
+}
+
+#beb-eab-contenitore-admin[class="beb-eab-imp-formattazione"] .form-table {
+	margin-left: 10%;
+	width: 80%;
+}
+
+#beb-eab-contenitore-admin[class="beb-eab-imp-formattazione"] .form-table th {
+	padding: 0 0 10px 0;
+	text-align: right;
+	vertical-align: middle;
+    width: 16%;
+}
+
+#beb-eab-contenitore-admin[class="beb-eab-imp-formattazione"] .form-table td {
+    padding: 0 0 10px 10px;
+    width: 35%;
+}
+
+#beb-eab-contenitore-admin[class="beb-eab-imp-formattazione"] .form-table td input[type="text"] {
+    margin: 0;
+}
